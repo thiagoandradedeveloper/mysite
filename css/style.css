@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "ubunto";
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype");
+}
+*{
+    font-family: 'ubunto';
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.divHomeTop{
+    position: absolute;
+    background: url("../img/software-developer-g6656658a3_1920.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.menuTopo{
+    position: relative;
+    float: right;
+    padding: 0px;
+    right: 50px;
+    top: -7px;
+    font-size: 20px;
+    color: #fff;
+}
+.menuTopo ul{
+    display: inline-block;
+    margin-left: -30px;
+}
+.containerGal2{
+    position: relative;
+    top: 110vh;
+    text-align: center;
+}
+.containerGal2 a, .containerGal2 a:visited{
+    color: #000;
+    text-decoration: none;
+}
+.gal2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 15px;
+    margin-bottom: 0px;
+    padding: 25px;
+    width: 200px;
+    height: 200px;
+    vertical-align: top;
+}
+.gal2 img{
+    width: 80px;
+}
+.h2{
+    position: relative;
+    color: #222222;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.name{
+    position: relative;
+    float: left;
+    left: 30px;
+    top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 3px 1px 15px orange;
+}
+.galery{
+    background: url("../img/fundoMenu.png");
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    color: #fff;
+    text-shadow: 
+        -1px -1px 0px #000, 
+        -1px 1px 0px #000,                    
+        1px -1px 0px #000,                  
+        1px 0px 0px #000;
+    z-index: 1;
+}
+.saiba{
+    padding: 15px;
+    border: thin solid #ffd700;
+    background: none;
+    color: #ffd700;
+    transition: .65s;
+    font-size: 20px;
+}
+.saiba:hover{
+    background: #ffd700;
+    color: #000;
+    border: thin solid #222222;
+    cursor: pointer;
+}
+.spanh1{
+    color: #ffd700;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    text-shadow: 
+        -1px -1px 0px #000, 
+        -1px 1px 0px #000,                    
+        1px -1px 0px #000,                  
+        1px 0px 0px #000;
+}
+.galery h1{
+    text-align: center;
+    font-size: 50px;
+}
+.titleTop::after{
+    content: "";
+    width: 30vw;
+    height: 1px;
+    background: currentColor;
+    display: block;
+    margin: 0 auto;
+    margin-top:15px;
+}
+.next,.back{
+    font-size: 50px;
+    font-weight: 100;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.next{
+    position: absolute;
+    margin: auto 0;
+    right: 15px;
+}
+.back{
+    position: absolute;
+    margin: auto 0;
+    left: 15px;
+}
+.containerFotoHome{
+    position: relative;
+    top:120vh;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    left: 0px;
+    background: url("../img/coding.png");
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.divGal{
+    column-count: 3;
+    position: relative;
+}
+.divGalTitle{
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    color: #ffd700;
+    font-family: Oswald;
+    text-shadow: 
+        -1px -1px 0px #000, 
+        -1px 1px 0px #000,                    
+        1px -1px 0px #000,                  
+        1px 0px 0px #000;
+}
+.divGalTitle h3{
+    font-weight: 100;
+    font-size: 2vw;
+}
+.divGalTitle h1{
+    font-size: 45px;
+}
+.divGalTitle button{
+    background: none;
+    border: thin solid #000;
+    padding: 15px;
+    color: #ffd700;
+    font-size: 18px;
+    cursor: pointer;
+    text-shadow: 
+        -1px -1px 0px #000, 
+        -1px 1px 0px #000,                    
+        1px -1px 0px #000,                  
+        1px 0px 0px #000;
+    transition: 750ms;
+}
+.divGalTitle button:hover{
+    background-color: #ffd700;
+    border: thin solid #000;
+    color: #000;
+    text-shadow: 
+        -1px -1px 0px #ffd700, 
+        -1px 1px 0px #ffd700,                    
+        1px -1px 0px #ffd700,                  
+        1px 0px 0px #ffd700;
+}
+.fotosHome{
+    position: relative;
+    width: 27vw;
+    height: 27vw;
+    margin: 10px;
+}
+
+#h1DivGalTitle{
+    font-size: 4vw
+}
+#h1DivGalTitle::after{
+    content: "";
+    width: 20vw;
+    height: 1px;
+    background: currentColor;
+    display: block;
+    margin: 0 auto;
+}
+.rodape{
+    position: absolute;
+    top: 500vh;
+}
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    background: #000;
+    /*background: #FF8C00;*/
+    /*background: url("../img/fundoMenuTop.png");*/
+    
+    z-index: 2;
+    box-sizing: border-box;
+}
+.guia{
+    position: absolute;
+    bottom: 50px;
+}
+.circles{
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    border: thin solid #fff;
+    padding: 5px;
+    
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+.circles:first-of-type{
+    background: #fff;
+}
